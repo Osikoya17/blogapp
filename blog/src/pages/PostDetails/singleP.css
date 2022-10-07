@@ -1,0 +1,52 @@
+.singlePost{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.singlePostitem{
+    flex: 9;
+    margin: 10px 40px ;
+    display: flex;
+    flex-direction: column;
+
+}
+.singlePostTitle{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.singlePostitem > img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.singlePostTitle{
+    font-size: 30px;
+    font-weight: 700;
+}
+.singlePostIcon{
+    float: right;
+}
+.singlePostIcon i{
+    margin-left: 7px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.singlePostIcon i:first-child{
+    color: teal;
+}
+.singlePostIcon i:last-child{
+    color: tomato;
+}
+.singlePostdetails{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(233, 210, 3);
+}
+.singlePostDesc{
+    line-height: 25px;
+    font-family:cursive;
+}

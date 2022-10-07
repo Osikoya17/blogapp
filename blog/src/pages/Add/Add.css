@@ -1,0 +1,70 @@
+.Add{
+    padding: 50px;
+    position: relative;
+}
+.AddFormGroup{
+position: relative;
+}
+.Add > img{
+    width: 70%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.AddFormGroup i{
+    font-size: 30px;
+    color: rgb(143, 143, 143);
+    border: 1px solid rgb(43, 43, 43);
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.AddFormGroup input{
+    margin-left: 10px;
+    width: 68%;
+    height: 60px;
+    font-size: 30px;
+    border: none;
+    color: rgb(116, 116, 116);
+}
+.AddFormGroup input:focus{
+    outline: none;
+}
+.AddFormGroup textarea{
+    margin-left: 10px;
+    width: 68%;
+    height: 60px;
+    font-size: 25px;
+    border: none;
+    color: rgb(116, 116, 116);
+}
+.AddFormGroup textarea:focus{
+    outline: none;
+}
+.btnSubmit{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btnSubmit:hover{
+    background-color: teal;
+    color: white;
+    transition: ease-in 0.5s;
+
+}
+@media only screen and (max-width: 1000px){
+    .Add>img{
+        width: 100%;
+    }
+    .btnSubmit{
+        position: relative;
+        left: 80%;
+    }
+}
