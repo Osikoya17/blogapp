@@ -18,21 +18,6 @@ const Add = ()=> {
     console.log(tit)
     console.log(dec)
     navigate("/")
-    // const url = "http://localhost:6000/upload"
-    // console.log(file);
-    // const formData = new FormData();
-    // formData.set("image",file)
-    // formData.set("title",title)
-    // formData.set("story",desc)
-    // formData.set("category",cart)
-
-    //   try { 
-    //     const res = await axios.post(url,formData)
-    //     console.log(res);
-    //   } catch (error) {
-    //     console.log(error)
-    //   }
-    
   }
   return (
     <DefaultLayout>
